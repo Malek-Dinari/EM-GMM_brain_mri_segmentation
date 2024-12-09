@@ -63,7 +63,7 @@ pip install -r requirements.txt
    Clone the repository and install the required dependencies:
 
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/Malek-Dinari/EM-GMM_brain_mri_segmentation.git)
 cd EM-GMM-Image-Segmentation
 pip install -r requirements.txt
 ```
