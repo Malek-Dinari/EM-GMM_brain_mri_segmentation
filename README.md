@@ -63,7 +63,7 @@ pip install -r requirements.txt
    Clone the repository and install the required dependencies:
 
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/Malek-Dinari/EM-GMM_brain_mri_segmentation.git)
 cd EM-GMM-Image-Segmentation
 pip install -r requirements.txt
 ```
@@ -83,11 +83,22 @@ pip install -r requirements.txt
    python training.py
     ```
 
+>>> The training process is visualized as a GIF:
+
+![em_gmm training result](artifacts/gmm_training_progress.gif)
+
+
 4. **Run Inference and Generate GIF**
 
   ```bash
    python run_inference_in_order_to_create_gif.py
   ```
+
+> EM-GMM model inference on the 3 images
+
+>>> The inference process is visualized as a GIF:
+
+![em_gmm inference](artifacts/gmm_inference.gif)
 
 
 ## License
