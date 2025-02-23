@@ -21,7 +21,9 @@ EM-GMM-Image-Segmentation/
 ├── scripts/                  # Folder containing the project’s Python scripts
 │   ├── preprocessing.py      # Preprocessing steps before EM-GMM iteration
 │   ├── run_inference_in_order_to_create_gif.py  # Running inference to generate inference images and LL vs. iterations plot
-│   └── training.py           # Model training loop and generating cluster alignments
+│   ├── training.py           # Model training loop and generating cluster alignments
+│   ├── segmentation.py       # training loop func of em-gmm and segmenting the primary images in data
+│   └── visualization.py      # creates gifs and plots when working via wsl2 (ubuntu style pathing)
 │
 ├── requirements.txt          # List of required Python packages
 ├── README.md                 # Project overview and instructions
