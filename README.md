@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # EM-GMM Image Segmentation
 
 This project implements an EM-GMM (Expectation Maximization Gaussian Mixture Model) for medical image segmentation, particularly focused on brain MRI scans. The segmentation process involves removing background noise, preprocessing the images, and applying the EM-GMM algorithm to cluster regions of interest (e.g., brain, skull, and other regions). The results are visualized as segmentation outputs, including LL (Log-Likelihood) vs. iterations, and GIFs of the segmentation progress.
